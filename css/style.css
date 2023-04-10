@@ -58,7 +58,7 @@ img{
 }
 .discord-logo{
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 ul{
     list-style-type: none;
