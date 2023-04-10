@@ -5,17 +5,24 @@
     font-family: 'Quicksand', sans-serif;
     text-align: center;
 }
+img{
+    padding-top: 30px;
+}
 h1{
-    font-size: 30px;
+    font-size: 23px;
     color: #c61111;
 }
 h3{
-    font-size: 25px;
+    font-size: 18px;
     color: #bc0f0f;
 }
 img    {
     border-radius: 50%;
 }
 ul{
-    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.nome-final{
+    color: rgb(49, 48, 48);
+    font-size: 10px;
 }
