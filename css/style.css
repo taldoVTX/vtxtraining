@@ -11,11 +11,11 @@
     background-color: #cbc4c4; /* cor do fundo */
     border: none; /* tira a linha preta de borda */
     color: #440202; /* cor do texto */
-    width: 300px; /* define uma altura padrão para os botões */
-    height: 30px; /* define uma largura padrão para os botões */
+    width: 600px; /* define uma largura padrão para os botões */
+    height: 100px; /* define uma altura padrão para os botões */
     border-radius: 30px; /* formato da borda */
     font-size: 16px; /* tamanho da fonte */
-    margin: 8px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
+    margin: 6px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
     cursor: pointer; /* altera o cursor ao passar por cima do butão */
 }
 h1{
