@@ -1,6 +1,3 @@
-.icon-primeiro{
-    border-radius: 50%;
-}
 *{ /* será aplicado em "tudo" */
     margin:0; 
     padding:0; /* espaço do texto para borda */
@@ -16,12 +13,12 @@
     margin: 10px, 2px;
 }
 .nome-perfil{
-    font-size: 20px;
+    font-size: 15px;
     color: #c61111;
     padding: 7px;
 }
 .texto-perfil{
-    font-size: 18px;
+    font-size: 9px;
     color: #bc0f0f;
     padding: 7px;
 }
