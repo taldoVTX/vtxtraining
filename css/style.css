@@ -1,3 +1,6 @@
+.icon-primeiro{
+    border-radius: 50%;
+}
 *{ /* será aplicado em "tudo" */
     margin:0; 
     padding:0; /* espaço do texto para borda */
@@ -6,10 +9,26 @@
     text-align: center; /* deixa o texto alinhado no meio */
     text-decoration: none; /* tira o sublinhado dos textos */
 }
+.foto-perfil{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 10px, 2px;
+}
+.nome-perfil{
+    font-size: 20px;
+    color: #c61111;
+    padding: 7px;
+}
+.texto-perfil{
+    font-size: 18px;
+    color: #bc0f0f;
+    padding: 7px;
+}
 .button{
     font-weight: bold; /* Deixa o texto em bold */
     background-color: #cbc4c4; /* cor do fundo */
-    border: solid #cbc4c4 1px; /* tira a linha preta de borda */
+    border: solid #cbc4c4 2px; /* tira a linha preta de borda */
     color: #440202; /* cor do texto */
     width: 645px; /* define uma largura padrão para os botões */
     height: 55px; /* define uma altura padrão para os botões */
@@ -23,21 +42,6 @@
     display: inline-block;
     background-color: white;
     color: #bcb9b9;
-}
-
-h1{
-    font-weight: bold;
-    font-size: 23px;
-    color: #c61111;
-    margin-bottom: 7px; /* Mesma função do margin porém só funciona para um lado */
-}
-h3{
-    font-size: 18px;
-    color: #bc0f0f;
-}
-img    {
-    border-radius: 50%; /* 50% é o padrao para foto redonda */
-    margin: 10px, 2px;
 }
 ul{
     list-style-type: none;
