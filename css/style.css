@@ -13,7 +13,9 @@
     border-radius: 50%;
     margin: 10px, 2px;
 }
-
+.share-icon{
+    border-radius: 50%;
+}
 .nome-perfil{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
