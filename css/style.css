@@ -1,25 +1,27 @@
-*{
-    margin:0;
+*{ /* será aplicado em "tudo" */
+    margin:0; 
     padding:0;
     box-sizing: border-box;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    text-decoration: none;
+    font-family: 'Quicksand', sans-serif; /* fonte q eu escolhi no https://fonts.google.com/specimen/Kanit */
+    text-align: center; /* deixa o texto alinhado no meio */
+    text-decoration: none; /* tira o sublinhado dos textos */
 }
 .button{
-    font-weight: bold;
-    background-color: #cbc4c4;
-    border: none;
-    color: #440202;
-    padding: 12px 300px;
-    border-radius: 10px;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
+    font-weight: bold; /* Deixa o texto em bold */
+    background-color: #cbc4c4; /* cor do fundo */
+    border: none; /* tira a linha preta de borda */
+    color: #440202; /* cor do texto */
+    padding: 12px 300px; /* espaço do texto para borda */
+    border-radius: 30px; /* formato da borda */
+    font-size: 16px; /* tamanho da fonte */
+    margin: 8px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
+    cursor: pointer; /* altera o cursor ao passar por cima do butão */
 }
 h1{
+    font-weight: bold;
     font-size: 23px;
     color: #c61111;
+    margin-bottom: 7px;
 }
 h3{
     font-size: 18px;
@@ -27,6 +29,7 @@ h3{
 }
 img    {
     border-radius: 50%;
+    margin: 10px, 2px;
 }
 ul{
     list-style-type: none;
