@@ -42,7 +42,9 @@
     background-color: white;
     color: #bcb9b9;
 }
-
+img{
+    
+}
 .position{
     display: flex;
     align-items: center;
