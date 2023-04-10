@@ -3,15 +3,19 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 h1{
-    font-size: 15px;
+    font-size: 30px;
     color: #c61111;
 }
 h3{
-    font-size: 10px;
-    color: #aa0e0e;
+    font-size: 25px;
+    color: #bc0f0f;
 }
 img    {
     border-radius: 50%;
+}
+ul{
+    padding-bottom: 20px;
 }
