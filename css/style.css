@@ -1,4 +1,5 @@
 *{ /* será aplicado em "tudo" */
+    font-family: 'Quicksand', sans-serif;
     margin:0; 
     padding:0; /* espaço do texto para borda */
     box-sizing: border-box;
@@ -20,13 +21,11 @@
     padding: 5px;
 }
 .texto-perfil{
-    font-family: 'Quicksand', sans-serif;
     font-size: 12px;
     color: #bc0f0f;
     padding-bottom: 2px;
 }
 .button{
-    font-family: 'Quicksand', sans-serif;
     font-weight: bold; /* Deixa o texto em bold */
     background-color: #cbc4c4; /* cor do fundo */
     border: solid #cbc4c4 2px; /* tira a linha preta de borda */
