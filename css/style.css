@@ -46,11 +46,12 @@
 .logoDS{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-/* .discord-logo{
+.discord-logo{
     display: flex;
     text-align: center;
-} */
+}
 ul{
     list-style-type: none;
     padding: 20px;
