@@ -43,10 +43,14 @@
     background-color: white;
     color: #bcb9b9;
 }
-.discord-logo{
+.logoDS{
+    display: flex;
+    align-items: center;
+}
+/* .discord-logo{
     display: flex;
     text-align: center;
-}
+} */
 ul{
     list-style-type: none;
     padding: 20px;
