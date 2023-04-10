@@ -39,9 +39,15 @@
     transition-duration: 0.4s; /* Tempo no qual haverá a o transição do efeito(hover)  */
 }
 .button:hover{ /* Hover diz como será o botão ao passar o mouse por cima dele, alterando o seu design  */
-    display: inline-block;
     background-color: white;
     color: #bcb9b9;
+}
+
+.position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .logoDS{
     display: flex;
