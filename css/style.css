@@ -38,13 +38,14 @@
     cursor: pointer; /* altera o cursor ao passar por cima do butão */
     transition-duration: 0.4s; /* Tempo no qual haverá a o transição do efeito(hover)  */
 }
-.test-button{
-    display: flex;
-}
 .button:hover{ /* Hover diz como será o botão ao passar o mouse por cima dele, alterando o seu design  */
     display: inline-block;
     background-color: white;
     color: #bcb9b9;
+}
+.discord-logo{
+    display: flex;
+    text-align: left;
 }
 ul{
     list-style-type: none;
