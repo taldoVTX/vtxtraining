@@ -9,7 +9,7 @@
 .button{
     font-weight: bold; /* Deixa o texto em bold */
     background-color: #cbc4c4; /* cor do fundo */
-    border: none; /* tira a linha preta de borda */
+    border: solid #cbc4c4 1px; /* tira a linha preta de borda */
     color: #440202; /* cor do texto */
     width: 645px; /* define uma largura padrão para os botões */
     height: 55px; /* define uma altura padrão para os botões */
@@ -23,7 +23,6 @@
     display: inline-block;
     background-color: white;
     color: #bcb9b9;
-    border: solid #cbc4c4 1px;
 }
 
 h1{
