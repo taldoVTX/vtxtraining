@@ -11,8 +11,8 @@
     background-color: #cbc4c4; /* cor do fundo */
     border: none; /* tira a linha preta de borda */
     color: #440202; /* cor do texto */
-    width: 12px; /* define uma altura padrão para os botões */
-    height: 300px; /* define uma largura padrão para os botões */
+    width: 300px; /* define uma altura padrão para os botões */
+    height: 12px; /* define uma largura padrão para os botões */
     border-radius: 30px; /* formato da borda */
     font-size: 16px; /* tamanho da fonte */
     margin: 8px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
