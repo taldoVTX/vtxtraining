@@ -38,7 +38,7 @@
     cursor: pointer; /* altera o cursor ao passar por cima do butão */
     transition-duration: 0.4s; /* Tempo no qual haverá a o transição do efeito(hover)  */
 }
-.button button1{
+.test-button{
     display: flex;
 }
 .button:hover{ /* Hover diz como será o botão ao passar o mouse por cima dele, alterando o seu design  */
