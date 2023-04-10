@@ -6,7 +6,7 @@
     text-align: center;
 }
 img{
-    padding-top: 30px;
+    border: #0a0a0a 5px;
 }
 h1{
     font-size: 23px;
@@ -21,6 +21,7 @@ img    {
 }
 ul{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .nome-final{
     color: rgb(49, 48, 48);
