@@ -6,6 +6,9 @@
     text-align: center; /* deixa o texto alinhado no meio */
     text-decoration: none; /* tira o sublinhado dos textos */
 }
+.icon-primario{
+    border-radius: 50%;
+}
 .foto-perfil{
     border-radius: 50%;
     margin: 10px, 2px;
