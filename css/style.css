@@ -44,8 +44,7 @@
     color: #bcb9b9;
 }
 .discord-logo{
-    text-align: left;
-    padding: 5px;
+    display: flex;
 }
 ul{
     list-style-type: none;
