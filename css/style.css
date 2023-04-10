@@ -7,9 +7,10 @@
 }
 .button{
     font-weight: bold;
-    background-color: #716d6d;
+    background-color: #9f9999;
     border: none;
     color: #440202;
+    text-decoration: none;
     padding: 12px 300px;
     border-radius: 40%;
     text-align: center;
