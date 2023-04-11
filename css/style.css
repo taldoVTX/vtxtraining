@@ -1,31 +1,27 @@
-*{ /* será aplicado em "tudo" */
-    margin:0; 
-    padding:0; /* espaço do texto para borda */
+*{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-     /* fonte q eu escolhi no https://fonts.google.com/ */
-    text-align: center; /* deixa o texto alinhado no meio */
-    text-decoration: none; /* tira o sublinhado dos textos */
+    text-align: center;
+    text-decoration: none;
 }
-.icon-primario{
+.profileimg{
     border-radius: 50%;
+    margin-top: 20px;
 }
-.foto-perfil{
-    border-radius: 50%;
-    margin: 10px, 2px;
-}
-.nome-perfil{
+
+.profiletext{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #c61111;
-    padding: 5px;
 }
-.texto-perfil{
+.subtext{
     font-family: 'Rajdhani', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #bc0f0f;
+    margin-bottom: 15px;
 }
-.button{
-    font-family: 'Quicksand', sans-serif;
+.botoes{
     font-weight: bold; /* Deixa o texto em bold */
     background-color: #cbc4c4; /* cor do fundo */
     border: solid #cbc4c4 2px; /* tira a linha preta de borda */
@@ -36,40 +32,9 @@
     font-size: 16px; /* tamanho da fonte */
     margin: 8px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
     cursor: pointer; /* altera o cursor ao passar por cima do butão */
-    transition-duration: 0.4s; /* Tempo no qual haverá a o transição do efeito(hover)  */
+    transition-duration: 0.4s;
 }
-.button:hover{ /* Hover diz como será o botão ao passar o mouse por cima dele, alterando o seu design  */
+.botoes:hover{
     background-color: white;
     color: #bcb9b9;
-}
-img{
-    
-}
-.position{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.logoDS{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.discord-logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-ul{
-    list-style-type: none;
-    padding: 20px;
-}
-.nome-final{
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: right;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
 }
