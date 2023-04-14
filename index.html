@@ -2,114 +2,141 @@
 <html lang="pt-BR"> <!-- Configurar linguaguem da pag -->
 <html>
 <head>
+    <!-- Linkando fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
-    <link rel="icon" href="/assets/profile.png"> <!-- Colocar a imagem do navegador -->
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- Linkando FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Configs padrão -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale="1.0">
+    <link href="/css/style.css" rel="stylesheet"> <!-- Linkando style -->
 	<meta charset="UTF-8">
     <meta http=equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0", maximum-scale="1.0">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vtx's House</title>
+    <!-- Nome e icone da pag -->
+    <link rel="icon" type="image/png" href="/assets/profile.png" sizes="32x32">
+	<title>Vtx's House</title>
 </head>
 <body>
+<main> <!-- Todo os corpo principal fica dentro do main -->
+<!-- "Porfile card" -->
+<div class="profile_card">
 
-<div>
-    <img src="/assets/profile.png" alt="foto perfil" class="profileimg" width="150" height="150">
-</div>    
+    <div>
+        <picture> <!-- Picture ajuda em ajuste de imagem -->
+            <img src="/assets/profile.png" alt="foto perfil" class="profile_img">
+        </picture>
+    </div>    
 
-<div class="profiletext">
-    <h1>vtx</h1>
-    <h3 class="profiletext subtext">Todas minhas redes sociais.</h3>
+    <div class="profile_infos">
+        <header class="profile_name">
+            vtx
+        </header>
+    <h3 class="profile_subtext">
+        "Minha competição é contra mim mesmo."
+    </h3>
+    </div>
+
 </div>
-<!-- Abaixo estão os botões-->
-<div>
+<!-- Botões -->
+<div> 
     <a href="https://discord.gg/ZCCugBgrHM" target="_blank">
-        <button class="botoes">
-            <i class="fa-brands fa-discord"></i>
-            Discord
+        <button>
+            <div class="space">
+                <i class="fa-brands fa-discord"></i> <!-- Icon do font awesome -->
+                    Discord
+                <i class="fa-brands fa-discord"></i>
+            </div>
         </button>
     </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://www.twitch.tv/taldovtx" target="_blank">
-            <button class="botoes">
+    <a href="https://www.twitch.tv/taldovtx " target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-twitch"></i>
-                Twitch
-            </button>
-        </a>
-    </div>
+                    Twitch
+                <i class="fa-brands fa-twitch"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://www.youtube.com/channel/UCiNe-o5Q_xiYdsqYy8xuaUw" target="_blank">
-            <button class="botoes">
+    <a href="https://www.youtube.com/channel/UCiNe-o5Q_xiYdsqYy8xuaUw" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-youtube"></i>
-                YouTube
-            </button>
-        </a>
-    </div>
+                    YouTube
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://www.instagram.com/taldovtx/" target="_blank">
-            <button class="botoes">
+    <a href="https://www.instagram.com/taldovtx/" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-instagram"></i>
-                Instagram
-            </button>
-        </a>
-    </div>
+                    Instagram
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://twitter.com/taldovtx" target="_blank">
-            <button class="botoes">
+    <a href="https://twitter.com/taldovtx" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-twitter"></i>
-                Twitter
-            </button>
-        </a>
-    </div>
+                    Twitter
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://www.tiktok.com/@taldovtx" target="_blank">
-            <button class="botoes">
+    <a href="https://www.tiktok.com/@taldovtx" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-tiktok"></i>
-                TikTok
-            </button>
-        </a>
-    </div>
+                    Tiktok
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://steamcommunity.com/id/crf_vtx/" target="_blank">
-            <button class="botoes">
+    <a href="https://steamcommunity.com/id/crf_vtx/" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-steam"></i>
-                Steam
-            </button>
-        </a>
-    </div>
+                    Steam
+                <i class="fa-brands fa-steam"></i>
+            </div>
+        </button>
+    </a>
 </div>
 
 <div>
-    <div>
-        <a href="https://github.com/taldoVTX" target="_blank">
-            <button class="botoes">
+    <a href="https://github.com/taldoVTX" target="_blank">
+        <button>
+            <div class="space">
                 <i class="fa-brands fa-github"></i>
-                GitHub
-            </button>
-        </a>
-    </div>
+                    GitHub
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </button>
+    </a>
 </div>
-
+</main>
+<footer> <!-- Rodapé -->
+    Coded By Vtx
+</footer>
 </body>
 </html>
