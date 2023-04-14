@@ -1,40 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
+*{ 
+    margin: 5px; /* Gerando margem pra não ficar grudado aos lados */
     box-sizing: border-box;
-    text-align: center;
-    text-decoration: none;
+    text-decoration: none; /* Removendo linha embaixo de link */
 }
-.profileimg{
-    border-radius: 50%;
-    margin-top: 20px;
+body{
+    margin: 0; /* Tirando a margem geral */
+    padding: 0;
+    text-align: center; /* alinha tudo no centro */
 }
-
-.profiletext{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    color: #c61111;
+.profile_card{ /* Colocando a imagem ao lado do texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.subtext{
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 18px;
-    color: #bc0f0f;
-    margin-bottom: 15px;
+.profile_img{ /* Configurando tamanho e borda da imagem */
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
 }
-.botoes{
-    font-weight: bold; /* Deixa o texto em bold */
-    background-color: #cbc4c4; /* cor do fundo */
-    border: solid #cbc4c4 2px; /* tira a linha preta de borda */
-    color: #440202; /* cor do texto */
-    width: 645px; /* define uma largura padrão para os botões */
-    height: 55px; /* define uma altura padrão para os botões */
-    border-radius: 30px; /* formato da borda */
-    font-size: 16px; /* tamanho da fonte */
-    margin: 8px 2px; /* espaço entre uma borda a outra de outro botão, 8=cima e baixo, 2=direita e esquerda */
-    cursor: pointer; /* altera o cursor ao passar por cima do butão */
-    transition-duration: 0.4s;
+.profile_infos{ /* Tirando margem do texto */
+    margin: 0;
+    padding: 0;
 }
-.botoes:hover{
+.profile_name{ /* Config do nome principal */
+    margin: 1;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: bold; /* Deixa em bold */
+    font-size: 3rem; 
+    color: #FF0000;
+}
+.profile_subtext{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    color: #950101;
+    opacity: 0.8; /* Diminui opacidade */
+}
+button{
+    background-color: #cbc4c4; /* Fundo do botão */
+    border: solid #cbc4c4 2px; /* Colocando a borda da cor do fundo */
+    color: #950101; 
+    font-weight: bold;
+    width: 645px; /* Tamanho padrao para os botões */
+    height: 55px; 
+    border-radius: 30px; /* Arredondando as pontas do botões */
+    font-size: 16px; 
+    margin: 8px 2px; /* Dando um espaço entre botão e texto */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    transition-duration: 0.4s; /* Tempo de transição para efeito hover */
+}
+button:hover{ /* efeito ao passar o mouse */
     background-color: white;
     color: #bcb9b9;
+}
+a{ /* tirando cor azul do hiperlink */
+    color: #950101;
+}
+.space{ /* alinhando icones e texto colocando um em cada ponta */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
 }
